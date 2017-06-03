@@ -369,6 +369,11 @@ body
 	flex-wrap: nowrap;
 	margin-left: 75px;
 }
+.content3 a:hover{
+    color: #8ac024;
+    text-decoration: none;
+}
+
 .content3-left{
 	width: 980px;
 	height: 400px;
@@ -707,6 +712,15 @@ body
 	flex-flow: row wrap;
 	margin-top: 40px;
 }
+.content4 a:hover{
+    color: #8ac024;
+    text-decoration: none;
+}
+.content4 span:hover{
+    color: #8ac024;
+    text-decoration: none;
+}
+
 .content4-heading{
 	float: left;
 	width: 1000px;
