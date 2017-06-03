@@ -24,7 +24,7 @@
 						<div class="mail">注册邮箱</div>
 						<div class="mobile">已绑定手机</div>
 					</div>
-					<form class="mobile_way">
+					<form action="php/forget_pwd2.php" method="GET" class="mobile_way">
 						<div class="block">
 							<input type="text" name="usermobile" class="inputbox account-input" placeholder="手机号码">
 						</div>
@@ -33,13 +33,16 @@
 							<button class="sent_mail">发送验证码</button>
 						</div>
 						<div class="block">
-							<input type="text" name="password" class="password account-input" placeholder="密码">
+							<input type="password" name="password" class="password account-input" placeholder="密码">
 						</div>
 						<div class="block">
-							<input type="text" name="password" class="password account-input" placeholder="确认密码">
+							<input type="password" name="confirmPassword" class="password account-input" placeholder="确认密码">
+						</div>
+						<div>
+							<button class="login_in_button">确认</button>
 						</div>
 					</form>
-					<form class="mail_way">
+					<form action="php/forget_pwd1.php" method="GET" class="mail_way">
 						<div class="block">
 							<input type="text" name="usermail" class="inputbox account-input" placeholder="注册邮箱">
 						</div>
@@ -49,15 +52,18 @@
 							<a class="captcha_font">看不清换一张</a>
 						</div>
 						<div class="block">
-							<input type="text" name="password" class="password account-input" placeholder="密码">
+							<input type="password" name="password" class="password account-input" placeholder="密码">
 						</div>
 						<div class="block">
-							<input type="text" name="password" class="password account-input" placeholder="确认密码">
+							<input type="password" name="confirmPassword" class="password account-input" placeholder="确认密码">
+						</div>
+						<div>
+							<button class="login_in_button">确认</button>
 						</div>
 					</form>
-					<div>
+					<!-- <div>
 						<button class="login_in_button">确认</button>
-					</div>
+					</div> -->
 					<div class="sign_or_forget">
 						<a class="right" href="login.html">返回登录</a>
 						<div class="clear"></div>

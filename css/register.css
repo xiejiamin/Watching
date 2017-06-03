@@ -15,7 +15,7 @@ body {
 	height: 504px;
 	margin: auto;
 	padding-top: 60px;
-	margin-bottom: 40px;
+	margin-bottom: 100px;
 }
 .img {
 	display: inline-block;
@@ -33,6 +33,7 @@ body {
     position: relative;
     padding: 25px 20px 30px;
     font-size: 14px;
+    margin-bottom: 30px;
 }
 .img img {
 	width: 100%;
@@ -162,6 +163,7 @@ a:hover {
 	background-position: -80px -60px;
 }
 .footer {
+	margin-top: 230px;
 	display: block;
 	width: 950px;
 	margin: auto;

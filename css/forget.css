@@ -105,7 +105,7 @@ a:hover {
 .sent_mail {
 	display: inline-block;
     width: 128px;
-    height: 36px;
+    height: 37px;
     border-radius: 2px;
     border: none;
     text-align: center;
@@ -114,6 +114,8 @@ a:hover {
     background-color: #3199e8;
     color: #fff;
     cursor: pointer;
+    position: relative;
+    top: 1px;
 }
 .account-input {
 	display: inline-block;
