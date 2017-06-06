@@ -1,3 +1,27 @@
+ $(function() {
+    $( document ).tooltip();
+  });
+
+$(function() {
+    $( document ).tooltip({
+      items: "img, [data-geo], [title]",
+      content: function() {
+        var element = $( this );
+        if ( element.is( "[data-geo]" ) ) {
+          var text = element.text();
+          return "<img class='map' src='"+ $(this).attr("src") + "'>";
+        }
+        if ( element.is( "[title]" ) ) {
+          return element.attr( "title" );
+        }
+        if ( element.is( "img" ) ) {
+          return element.attr( "alt" );
+        }
+      }
+    });
+  });
+
+
 // PART 1
 $(document).ready(function(){
 	$(function(){
